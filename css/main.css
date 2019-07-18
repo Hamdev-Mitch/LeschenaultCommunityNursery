@@ -1,0 +1,65 @@
+/* DIVS START */
+.nav {
+  background-color: #f4f9f4;
+}
+
+html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+div{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.topDiv {
+  background-color: #f4f9f4;
+  min-height: 100%;
+  justify-content: center;
+}
+
+.quoteDiv, .productsDiv{
+  min-height: 50%;
+  background-color: #a7d7c5;
+}
+
+.infoDiv {
+  min-height: 100%;
+  background-color: #f4f9f4;
+}
+
+.gallaryDiv{
+  min-height: 50%;
+}
+
+/* DIVS END */
+
+.welcomeTitle{
+  text-align:center;
+  color: #5c8d89;
+  font-size: 5rem;
+}
+
+.nav-link {
+  color: #5c8d89;
+}
+
+/* FONTS START */
+h1 {
+  color: #5C8D89;
+}
+/* FONTS END */
+
+
+
+/* FOOTER START */
+footer {background-color: #5c8d89;}
+
+.footerText {
+  font-size: 0.8rem;
+  color: #f4f9f4;
+}
+/* FOOTER END */
