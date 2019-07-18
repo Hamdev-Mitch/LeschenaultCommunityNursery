@@ -1,4 +1,4 @@
-# LeschenaultCommunityNursery
+# Leschenault Community Nursery
 This is a site rebuild for a local community nursery.
 
 Their current website is live at http://leschenaultcommunitynursery.com.au/index.html
