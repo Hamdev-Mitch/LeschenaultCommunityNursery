@@ -28,38 +28,30 @@
     font-family: "Lucida Sans", sans-serif;
   }
 
-  .header {
-    background-color: #9933cc;
-    color: #ffffff;
-    padding: 15px;
+  .nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #5c8d89;
+    opacity: 1;
   }
 
-  .menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+.nav-item {
+  font-size: 3vw;
+  color: #f4f9f4;
+}
 
-  .menu li {
-    padding: 8px;
-    margin-bottom: 7px;
-    background-color: #33b5e5;
-    color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  }
+.main {
+   margin-top: 30px;
+}
 
-  .menu li:hover {
-    background-color: #0099cc;
-  }
-
-  .aside {
-    background-color: #33b5e5;
-    padding: 15px;
-    color: #ffffff;
-    text-align: center;
-    font-size: 14px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  }
+div {
+  margin-top: 30px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 
   .footer {
     background-color: #5c8d89;
@@ -106,20 +98,30 @@
 
 
   /* DIVS START */
+
   .nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: #f4f9f4;
   }
+
 
   html, body {
               height: 100%;
               margin: 0;
           }
 
-  div{
+  div {
+    margin-top: 30px;
     padding: 10px;
     display: flex;
     flex-direction: column;
     text-align: center;
+  }
+
+  .main {
+     margin-top: 30px;
   }
 
   .topDiv {
@@ -165,6 +167,7 @@
   /* FONTS END */
 
   .responsiveLogos {
+    display: flex;
     padding: 5px;
     width: 20%;
   }
