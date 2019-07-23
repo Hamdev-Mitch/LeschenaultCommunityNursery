@@ -27,98 +27,80 @@
     color: #a7d7c5;
   }
 
-
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-  [class*="col-"] {
-    float: left;
-    padding: 15px;
-  }
-
-
-  /* NAVBAR */
-  .nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #5c8d89;
-    opacity: 1;
-  }
-
-  .nav-item {
-    font-size: 3vw;
-    color: #f4f9f4;
-  }
-
-
-
-  /*   DIVS   */
-  .main {
-    margin-top: 30px;
-  }
-
   div {
     margin-top: 30px;
-    padding: 10px;
+    /* padding: 10px; */
     display: flex;
     flex-direction: column;
     text-align: center;
   }
 
-  .topDiv {
-    background-color: #f4f9f4;
-    min-height: 100%;
-    justify-content: center;
-  }
 
-  .footer {
-    background-color: #5c8d89;
-    color: #ffffff;
-    text-align: center;
-    font-size: 12px;
-    padding: 15px;
-  }
+/* TOP OF PAGE */
+/* NAVBAR */
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #5c8d89;
+  opacity: 1;
+  z-index: 11;
+}
 
-  [class*="col-"] {
-    width: 100%;
-  }
+.nav-item {
+  font-size: 3vw;
+  color: #f4f9f4;
+}
 
-  /* SPONSORS LOGOS */
-  .responsiveLogos {
-    width: 100%;
-    height: 80%;
-  }
+/*   DIVS   */
+.main {
+  margin-top: 30px;
+}
 
-  /* FLEX BOX */
-  @import "compass/css3";
+.topDiv {
+  background: url('assets/titlePlantsImage.jpg');
+  min-height: 700px;
+  justify-content: center;
+  margin: 0;
+}
 
-  .flex-container {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    justify-content: space-around;
-  }
+.welcomeTitle {
+  text-align: center;
+  color: #5c8d89;
+  font-size: 3rem;
+}
 
-  .flex-item {
-    padding: 5px;
-    width: 170px;
-    height: 100px;
-    margin-top: 10px;
-    color: white;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-  }
+.flex-item:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  transform: translateY(2px);
+  transform: scale(0.95);
+}
+
+
+
+
+
+/* MIDDLE OF PAGE */
+
+.openingHoursDiv{
+  background-color:#a7d7c5;
+  height: 200px;
+}
+
+.aboutUsTextDiv {
+  /* margin: 35px; */
+  background-color: #a7d7c5;
+}
+
+.aboutUsText{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.facilitiesTitle{
+  margin: 0;
+  padding: 0;
 }
 
 /* I adapted the testimonials from Tristan Weston Wood: https://codepen.io/tristanwood21/pen/ywydrj?&page=1 */
@@ -169,11 +151,12 @@
 	font-size: 15px;
 }
 
-.testimonials li h1 {
+.testimonials li h3 {
 	position: absolute;
 	text-decoration: bold;
 	bottom: 10px;
 	left: 50%;
+  padding: -5px;
 	transform: translatex(-50%);
 	font-size: 17px;
 }
@@ -200,6 +183,68 @@
 	}
 }
 
+
+
+
+
+/* BOTTOM OF PAGE */
+
+  .footer {
+    background-color: #5c8d89;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+  }
+
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  /* SPONSORS LOGOS */
+  .responsiveLogos {
+    width: 100%;
+    height: 90px;
+    border-radius: 5%;
+  }
+
+  /* FLEX BOX */
+  @import "compass/css3";
+
+  .flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .flex-item {
+    padding: 5px;
+    width: 170px;
+    height: 100px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    border-radius: 5%;
+  }
+}
+
+
+
+
+
+
+
+
+
 /* -------------------------------------------------- */
 
 /*            IPAD SIZED SCREENS            */
@@ -207,6 +252,12 @@
   .nav-item {
     font-size: 1rem;
     color: #f4f9f4;
+  }
+
+  .welcomeTitle {
+    text-align: center;
+    color: #5c8d89;
+    font-size: 4rem;
   }
 
   /* FLEX BOX */
@@ -236,118 +287,36 @@
     text-align: center;
   }
 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
   /*            DESKTOP SIZED SCREENS            */
   @media only screen and (min-width: 768px) {
 
-    /* For desktop: */
-    /* DIVS START */
-    .nav {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      background-color: #f4f9f4;
-    }
 
-    html, body {
-      height: 100%;
-      margin: 0;
-    }
 
-    div {
-      margin-top: 30px;
-      padding: 10px;
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-    }
-
-    .main {
-      margin-top: 30px;
-    }
-
-    .topDiv {
-      background-color: #f4f9f4;
-      min-height: 100%;
-      justify-content: center;
-    }
-
-    .quoteDiv, .productsDiv {
-      min-height: 50%;
-      background-color: #a7d7c5;
-    }
-
-    .infoDiv {
-      min-height: 100%;
-      background-color: #f4f9f4;
-    }
-
-    .gallaryDiv {
-      min-height: 50%;
-    }
-
-    /* DIVS END */
-    .welcomeTitle {
-      text-align: center;
-      color: #5c8d89;
-      font-size: 5rem;
-    }
-
-    .nav-link {
-      color: #5c8d89;
-    }
-
-    /* FONTS START */
-    h1 {
-      color: #5C8D89;
-    }
-
-    /* FONTS END */
-    .responsiveLogos {
-      display: flex;
-      padding: 5px;
-      width: 100%;
-      height: 80%;
-    }
-
-    .supporterLogosDiv {}
-
-    /* FLEX BOX */
-    @import "compass/css3";
-
-    .flex-container {
-      padding: 0;
-      margin: 0;
-      list-style: none;
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-flex-flow: row wrap;
-      justify-content: space-around;
-    }
-
-    .flex-item {
-      padding: 5px;
-      width: 300px;
-      height: 200px;
-      margin-top: 10px;
-      color: white;
-      font-weight: bold;
-      font-size: 3em;
-      text-align: center;
-    }
-
-    /* FOOTER START */
-    footer {
-      background-color: #5c8d89;
-    }
-
-    .footerText {
-      font-size: 0.8rem;
-      color: #f4f9f4;
-    }
-
-    /* FOOTER END */
-  }
+#carouselExampleCaptions {
+  margin-left: 25%;
+  width: 50%;
+  text-align: center;
+  ;
 }
+
+    .sponsorsLogosDiv {
+      padding-left: 25%;
+      padding-right: 25%;
+    }
+
+  }
