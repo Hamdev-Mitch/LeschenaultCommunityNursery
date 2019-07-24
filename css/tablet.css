@@ -1,15 +1,19 @@
 /*            TABLET SIZED SCREENS            */
 
-  /* .nav-item {
+  .nav-item {
     font-size: 1rem;
     color: #f4f9f4;
   }
 
-  .welcomeTitle {
+  /* .welcomeTitle {
     text-align: center;
-    color: #5c8d89;
-    font-size: 4rem;
-  }
+    color: #f4f9f4;
+    font-size: 3.8rem;
+    width: 33%;
+    height: 70px;
+    margin-left: 33%
+
+  } */
 
   /* FLEX BOX */
   @import "compass/css3";
@@ -36,4 +40,4 @@
     font-weight: bold;
     font-size: 3em;
     text-align: center;
-  } */
+  }

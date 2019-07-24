@@ -1,15 +1,12 @@
 
   /*            DESKTOP SIZED SCREENS            */
 
-
-/* #carouselExampleCaptions {
-  margin-left: 25%;
-  width: 50%;
-  text-align: center;
-  ;
-}
-
-    .sponsorsLogosDiv {
-      padding-left: 25%;
-      padding-right: 25%;
-    } */
+  .welcomeTitle{
+    color: #ffffff;
+    font-size: 5vw;
+    background-color: #5c8d89;;
+    margin-left: 33%;
+    width: 33%;
+    height: 10%;
+    
+  }
