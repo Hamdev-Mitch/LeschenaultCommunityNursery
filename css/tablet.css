@@ -1,0 +1,39 @@
+/*            TABLET SIZED SCREENS            */
+
+  .nav-item {
+    font-size: 1rem;
+    color: #f4f9f4;
+  }
+
+  .welcomeTitle {
+    text-align: center;
+    color: #5c8d89;
+    font-size: 4rem;
+  }
+
+  /* FLEX BOX */
+  @import "compass/css3";
+
+  .flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .flex-item {
+    padding: 5px;
+    width: 170px;
+    height: 100px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }

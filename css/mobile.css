@@ -1,0 +1,239 @@
+/*            MOBILE SIZED SCREENS            */
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: "Lucida Sans", sans-serif;
+  }
+
+  body {
+    background-color: #f4f9f4;
+    width: 100%;
+  }
+
+/* FONTS  */
+  h1, h2 {
+    color: #5c8d89;
+  }
+
+  a {
+    color: #a7d7c5;
+  }
+
+  div {
+    margin-top: 30px;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+/* TOP OF PAGE */
+/* NAVBAR */
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #5c8d89;
+  opacity: 1;
+  z-index: 11;
+}
+
+.nav-item {
+  font-size: 3vw;
+  color: #f4f9f4;
+}
+
+/*   DIVS   */
+.main {
+  margin-top: 30px;
+}
+
+.topDiv {
+  background: url('https://www.trevenacross.co.uk/wp-content/uploads/2018/06/nursery-liners.jpg');
+  opacity: 0.7;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+  object-fit:fill;
+
+}
+
+.welcomeTitle {
+  color: #ffffff;
+  font-size: 10vw;
+  background-color: #5c8d89;;
+  margin-left: 15%;
+  width: 70%;
+  height: 7%;
+}
+
+.flex-item:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  transform: translateY(2px);
+  transform: scale(0.95);
+}
+
+  .infoSideBySide{
+    display:flex;
+  }
+
+
+
+/* MIDDLE OF PAGE */
+
+.openingHoursDiv{
+  background-color:#a7d7c5;
+  height: 50vh;
+}
+
+.aboutUsTextDiv {
+  /* margin: 35px; */
+  background-color: #a7d7c5;
+}
+
+.aboutUsText{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.facilitiesTitle{
+  margin: 0;
+  padding: 0;
+}
+
+/* I adapted the testimonials from Tristan Weston Wood: https://codepen.io/tristanwood21/pen/ywydrj?&page=1 */
+.testimonials {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	position: relative;
+	display: block;
+	width: 100%;
+	min-height: 250px;
+}
+
+.testimonials ul {
+	list-style: none;
+	padding: 0;
+}
+
+.testimonials li {
+	display: inline-block;
+	background-color: white;
+	margin: 50px 10px 10px 10px;
+	width: calc((100% - 55px) / 2);
+	height: 200px;
+	border: solid 1px #bdbdbd;
+	position: relative;
+	transition: ease-in-out .3s;
+}
+
+.testimonials li img {
+	height: 70px;
+	width: 70px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	border-radius: 50%;
+	box-shadow: 0px 0px 0px 15px #fff;
+	background-color: #fff;
+	transition: box-shadow 0.3s linear;
+}
+
+.testimonials li p {
+	position: absolute;
+	width: 70%;
+	text-align: center;
+	top: 50px;
+	left: 50%;
+	transform: translatex(-50%);
+	font-size: 15px;
+}
+
+.testimonials li h3 {
+	position: absolute;
+	text-decoration: bold;
+	bottom: 10px;
+	left: 50%;
+  padding: -5px;
+	transform: translatex(-50%);
+	font-size: 17px;
+}
+
+.testimonials li:hover {
+	background-color: #212121;
+	color: #fff;
+}
+
+.testimonials li:hover img {
+	box-shadow: 0px 0px 0px 2px #fff;
+}
+
+@media only screen and (max-width: 860px) {
+	.testimonials li {
+		width: 70%;
+		margin: auto;
+		display: block;
+		margin-top: 70px;
+	}
+
+	.testimonials li:first-child {
+		margin-top: 50px;
+	}
+}
+
+/* BOTTOM OF PAGE */
+
+  .footer {
+    background-color: #5c8d89;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+  }
+
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  /* SPONSORS LOGOS */
+  .responsiveLogos {
+    width: 100%;
+    height: 90px;
+    border-radius: 5%;
+  }
+
+  /* FLEX BOX */
+  @import "compass/css3";
+
+  .flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .flex-item {
+    padding: 5px;
+    width: 170px;
+    height: 100px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    border-radius: 5%;
+  }
