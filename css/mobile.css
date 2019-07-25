@@ -277,4 +277,23 @@ margin-left: 70%;
   text-align: left;
 }
 
-/*  plants page */
+/*  Plants page */
+
+
+/* Contact Page */
+#mapHeading{
+  padding-top: 30px;
+  text-align: center;
+
+}
+
+#map {
+height:50vh;
+margin-left: 10vw;
+width: 80vw;
+
+}
+
+#mapImage{
+height:50vh;
+}
