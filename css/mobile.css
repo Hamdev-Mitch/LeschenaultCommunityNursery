@@ -46,6 +46,17 @@
   color: white;
 }
 
+.lcnLogo{
+  width: 25%;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.navbar-nav {
+text-align: right;
+margin-left: 70%;
+
+}
 
 .nav-item {
   font-size: 3vw;
@@ -53,28 +64,38 @@
 }
 
 /*   DIVS   */
-.main {
+/* .main {
   margin-top: 30px;
-}
+} */
 
 .topDiv {
   background: url('https://www.trevenacross.co.uk/wp-content/uploads/2018/06/nursery-liners.jpg');
-  opacity: 0.7;
   justify-content: center;
   margin: 0;
   height: 100vh;
-  object-fit:fill;
-
+  object-fit: fill;
+  background-repeat: space;
 }
 
-.welcomeTitle {
+.titleImage {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.viewPlantsButton{
+  width: 20%;
+  margin-left: 40%;
+  margin-top: 15px;
+}
+
+/* .welcomeTitle {
   color: #ffffff;
   font-size: 10vw;
   background-color: #5c8d89;;
   margin-left: 15%;
-  width: 70%;
+  c
   height: 7%;
-}
+} */
 
 
 
@@ -83,7 +104,14 @@
 .openingHoursDiv{
   background-color:#a7d7c5;
   height: 25vh;
+  width: 70vw;
+  margin-left: 15%;
 }
+
+.openingHours{
+  padding-top: 15px;
+}
+
 
 .aboutUsTextDiv {
   /* margin: 35px; */
@@ -231,5 +259,22 @@
     border-radius: 5%;
   }
 
+/* About Page */
+
+.naidocImage{
+  width: 80%;
+  margin: 5% 10% ;
+}
+
+.aboutDescription{
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.aboutPText{
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: left;
+}
 
 /*  plants page */

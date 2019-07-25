@@ -1,12 +1,14 @@
 
   /*            DESKTOP SIZED SCREENS            */
+/*
+  .topDiv {
+    background: url('assets/largeImageforBackground.jpeg');
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    object-fit: cover;
+    background-repeat: space;
 
-  .welcomeTitle{
-    color: #ffffff;
-    font-size: 5vw;
-    background-color: #5c8d89;;
-    margin-left: 33%;
-    width: 33%;
-    height: 10%;
-    
-  }
+  } */
+/* 
+Figure out how to have one style sheet for each size viewport. */
